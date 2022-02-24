@@ -1,6 +1,10 @@
 {
-  "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
-  "python.formatting.provider": "black",
-  "python.formatting.autopep8Path": "black"
+	"editor.formatOnSave": true,	
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"python.formatting.provider": "autopep8"
+	"prettier.withNodeModules": true,
+	"prettier.useTabs": true,
+	"prettier.tabWidth": 4,
+	"prettier.singleQuote": true,
+	"prettier.enableDebugLogs": true
 }
